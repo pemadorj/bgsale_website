@@ -134,6 +134,33 @@ nav ul li {
 		cursor: pointer;
 	}
 	.hide-mobile-menu {
-		right: -200px;
+		right: -400px;
 	}
+}
+
+@media (max-width: 390px){
+	.logo{
+		width: 25px;
+		height: 25px;
+	}
+	nav ul {
+		position: fixed;
+		top: 0;
+		right: 0px;
+		bottom: 0;
+		background-color: #212EA0;
+		z-index: -1;
+		width: 200px;
+		padding-top: 30px;
+		transition: 0.5s;
+	}
+	.menu-icon {
+		display: block;
+		width: 25px;
+		cursor: pointer;
+	}
+	.hide-mobile-menu {
+		right: -400px;
+	}
+
 }
