@@ -10,6 +10,7 @@ import Product from '../../Components/Product/Product'
 import Service from '../../Components/Service/Service'
 import Title from '../../Components/Title/Title'
 import VideoPlayer from '../../Components/VideoPlayer/VideoPlayer'
+import FacebookMsg from '../PageComponents/FacebookMsg'
 
 const Home = () => {
     const [playState, setPalyState] = useState(false);
@@ -39,6 +40,7 @@ const Home = () => {
 
             <Footer/>
             <VideoPlayer playState= {playState} setPalyState={setPalyState}/>
+            <FacebookMsg/>
         </div>
     </div>
   )
