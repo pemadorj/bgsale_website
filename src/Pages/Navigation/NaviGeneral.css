@@ -1,0 +1,26 @@
+a {
+color: rgb(97,97,97);
+}
+
+.general-nav {
+    display: flex;
+    border-bottom: 2px solid #f3f3f3;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    background: #fff;
+}
+
+.general-logo-container  img{
+    width: 4rem;
+    height: 4rem;
+}
+.nav-icons {
+    width: 4rem;
+    height: 4rem;
+}
+.general-title h2 {
+    font-size: 34px;
+    font-weight: 900;
+    color: #FF7518;
+}

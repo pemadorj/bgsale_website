@@ -1,0 +1,81 @@
+.card-price .del-main-price {
+  color: red;
+}
+
+.card-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.modal-content {
+  text-align: center;
+  margin-right: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content img {
+  width: 24rem;
+  margin-right: 1rem;
+}
+
+.modal-content .desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-content .del-price {
+  color: red;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 34px;
+  color: #333;
+}
+
+@media (max-width: 1216px) {
+  .modal-content {
+      flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  .card-modal {
+      padding: 5px;
+  }
+
+  .modal-content h2 {
+      font-size: 16px;
+  }
+
+  .modal-content p {
+      font-size: 13px;
+  }
+
+  .modal-content img {
+      width: 18rem;
+      margin-top: 1rem;
+  }
+
+  .close {
+      position: absolute;
+      top: 2px;
+      right: 10px;
+      cursor: pointer;
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 1rem;
+  }
+}

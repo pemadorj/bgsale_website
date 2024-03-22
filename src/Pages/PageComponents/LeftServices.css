@@ -1,0 +1,99 @@
+.left-services-container {
+    background: #d1ecef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.right-side {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.left-side h2 {
+    color: #000F38;
+    font-size: 44px;
+    margin-bottom: 2rem;
+
+}
+.left-side p {
+    color: #100e0c;
+    font-size: 16px;
+    margin-bottom: 1rem;
+}
+.left-side h4 {
+    font-size: 12px;
+    margin-bottom: 1rem;
+}
+.left-side .check-icon-desc {
+    display: flex;
+    align-items: center;
+
+}
+.left-side .check-icon-desc h4 {
+    margin-left: 10px;
+    color: #000F38;
+}
+.left-side .check-icon-desc .check-icon {
+    color: red;
+}
+
+.right-side .right-side-card {
+    margin: 1rem;
+    background: #fff;
+    flex: 0 1 calc(50% - 2rem);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.right-side .right-circle {
+    width: 100px; /* Adjust the width of the circle */
+    height: 100px; /* Adjust the height of the circle */
+    border-radius: 50%; /* Create a circle by setting border-radius to 50% */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-side .network-icon {
+    width: 4rem;
+    height: 4rem;
+    color: #fff;
+}
+.right-side .card-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+.bg-red {
+    background: orangered;
+}
+.bg-blue {
+    background: #626feb;
+}
+.bg-green {
+    background: #14c953;
+}
+.bg-purple {
+    background: #e722dd;
+}

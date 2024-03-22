@@ -1,0 +1,25 @@
+.gallery {
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+}
+.gallery-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.gallery-img img {
+    width: 23%;
+    border-radius: 10px;
+}
+/* ------ media query ------- */
+@media (max-width: 800px){
+    .gallery-img{
+        flex-wrap: wrap;
+    }
+    .gallery-img img {
+        width: 40%;
+        margin-bottom: 25px;
+    }
+}
